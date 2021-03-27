@@ -11,6 +11,7 @@ use App\Models\publicacao;
 Route::resource('/', 'App\Http\Controllers\PublicacaoController');
 
 Route::get('/index', function () {
+    //teste
     return view('admin/layout');
 });
 
